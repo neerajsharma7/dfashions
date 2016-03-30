@@ -34,7 +34,9 @@
                     </div>
                     <div class="collapse navbar-collapse navbar-right set-nav" id="bs-example-navbar-collapse-9" nav-collapse="">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="javascript:void(0);">Home</a></li>                            
+                            <li class="active"><a href="javascript:void(0);">Home</a></li>
+							<li><a href="aboutus.html">About Us</a></li>
+							<li><a href="contactus.html">Contact Us</a></li>                            
                         </ul>
                     </div>
                 </div>
@@ -43,21 +45,22 @@
     </header>
     <section>
         <div class="padding20">
-            <div class="row">
-                <div class="padding20 text-center" style="font-size:50px;">
-                    Domain Available For Sale                    
+            <div class="row" style="color:#BBBBBB;">
+                <div id="id_div_left" class="col-md-3"></div>
+                <div class="col-md-6 padding20 text-center" style="font-size: 50px;  color: #000;">
+                    Domain Available For Sale
+					<div class="text-center">
+						<b style="font-size: 20px; color: #FF3B30;">dhiyarafashions.com , dhiyarafashions.in , dhiyara.com , dhiyara.in</b>
+					</div>
+					<div class="text-center" style="font-size:25px; color: #000;">
+						Contact : neeraj.sh7@gmail.com <br />
+								&nbsp; &nbsp; +91-9873741375                    
+					</div> <br />
+					<div id="id_box" class="col-md-12" style="font-size: 20px; color:#bbbbbb;"></div>
                 </div>
-                <div class="text-center">
-                    <b style="font-size: 20px; color: #FF3B30;">dhiyarafashions.com , dhiyarafashions.in , dhiyara.com , dhiyara.in</b>
-                </div> <br />
-                <div class="text-center" style="font-size:25px;">
-                    Contact : neeraj.sh7@gmail.com <br />
-                            &nbsp; &nbsp; +91-9873741375                    
-                </div>
-                <div id="id_box" class="col-md-12" style="color:#bbbbbb;">                    
-                </div>
+                <div id="id_div_right" class="col-md-3"></div>
             </div>            
-        </div>    
+        </div>            
     </section>        
     <footer>
         <div>            
@@ -68,11 +71,19 @@
     </footer>    
     <script>
         var text = ""
-        for (var i=0;i<=34;i++)
+        for (var i=0;i<=10;i++)
         {
              text = text + "dhiyarafashions dhiyarafashion dhiyarajewellery dhiyarajewelry trendy earings necklaces dhiyara online shopping dhiyara online jewellery collections handmade jewelry dhiyara online jewellery shopping pendants dhiyara online jewelry shopping dhiyara online fashion jewellery dhiyara fashions dhiyara fashion dhiyara jewellery fashion jewellery earings fashion jewelry necklaces braclets"
         }
         $("#id_box").html(text);
+        
+        var text = "";
+		for (var i=0;i<=7;i++)
+		{
+			 text = text + "dhiyarafashions dhiyarafashion dhiyarajewellery dhiyarajewelry trendy earings necklaces dhiyara online shopping dhiyara online jewellery collections handmade jewelry dhiyara online jewellery shopping pendants dhiyara online jewelry shopping dhiyara online fashion jewellery dhiyara fashions dhiyara fashion dhiyara jewellery fashion jewellery earings fashion jewelry necklaces braclets";
+		}
+		$("#id_div_left").html(text);
+		$("#id_div_right").html(text);
     </script>
   </body>
 </html>
